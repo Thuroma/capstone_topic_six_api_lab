@@ -20,7 +20,7 @@ import os
 
 
 #   Set up the file for the program log and set the lowest level to record as DEBUG
-logging.basicConfig(filename='lab.log', level=logging.DEBUG, format=f'%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename='lab.log', level=logging.INFO, format=f'%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 
 #   API base URL and key (environment variable)
